@@ -1,0 +1,22 @@
+.org-button {
+  border-radius: 10px;
+  font-weight: 500;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.org-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.org-line {
+  width: 100%;
+  height: 2px;
+  background-color: green;
+  margin: 20px 0;
+}
+
+/* Responsive spacing between rows */
+.org-row {
+  flex-wrap: wrap;
+}
